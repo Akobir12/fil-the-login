@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@400;700&family=Rubik:wght@500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Lexend Deca;
+}
+
+.header {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(../img/fil-the-login.png) no-repeat;
+}
+
+.box {
+    padding: 20px;
+    text-align: center;
+    border-radius: 20px;
+    border: 1px solid #fff;
+    width: 400px;
+    height: 400px;
+    background-color: transparent;
+    backdrop-filter: blur(5px);
+}
+
+.box h1 {
+    letter-spacing: 3px;
+    color: #fff;
+    font-size: 40px;
+}
+
+.form {
+    position: relative;
+    color: #fff;
+    margin-top: 40px;
+}
+
+.text::placeholder {
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.text {
+    padding-top: 20px;
+    color: #fff;
+    margin-bottom: 20px;
+    backdrop-filter: blur(5px);
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #fff;
+    width: 100%;
+    height: 40px;
+}
+
+.form h5 {
+    margin-bottom: 45px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.cekbox {
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    left: 35px;
+    top: 152px;
+}
+
+.btn {
+    transition: 0.5s;
+    cursor: pointer;
+    letter-spacing: 3px;
+    background-color: #fff;
+    width: 200px;
+    height: 40px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+}
+
+.btn:hover {
+    border-color: yellow;
+    background-color: yellow;
+}
